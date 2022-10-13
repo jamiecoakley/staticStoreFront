@@ -276,7 +276,7 @@ footer{
     background-image: linear-gradient(to bottom right, rgb(232, 232, 228), white, rgb(232, 232, 228) );
 }
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
     #top{
         font-size: 40px;
         text-shadow: 1px 1px black;
@@ -309,4 +309,4 @@ footer{
         margin-left: 6vw;
         margin-bottom: 3vw;
     }
-}
+} */
