@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kanit:wght@500&family=Maven+Pro&family=Sacramento&family=Yeseva+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Static Store Front</title>
+</head>
+<body>
+    <header>
+        <div class="store-name">        
+            <h1 id="top"><i>Efflorescence</i></h1>
+            <h3 id="top-2">Flower Store</h3>
+        </div>
+        <div class="nav-bar">
+        <nav>
+            <ul>
+                <li><a href="#send-flowers">Send Flowers</a></li>
+                <li><a href="#help">Need Help Deciding?</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav> 
+        </div>       
+    </header>
+    <h3 id="send-flowers"><b class="step">Step 1:</b> Choose a flower to send!</h3>
+    <section class="send-flowers" >        
+            <ul>
+                <li>
+                    <img src="./assets/moonCarn.jpg" class="flower-photo" alt="moonshade moon carnation"/>
+                    <p>
+                        <input type="radio" id="carn" name="flower-type" value="moonshade-carnation"/>
+                        <label for="flower-type"> Moonshade Carnation</label>
+                        
+                    </p>
+                </li>
+                <li>
+                    
+                    <img src="./assets/freeSpirit.jpg" class="flower-photo" alt="free spirit rose"/>
+                    <p>
+                        <input type="radio" id="rose" name="flower-type" value="free-spirit-rose"/>
+                        <label for="flower-type">Free Spirit Rose</label>                    
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/protea.png" class="flower-photo" alt="yellow pincushion protea"/>
+                    <p>
+                        <input type="radio" id="protea" name="flower-type" value="pincushion-protea"/>
+                        <label for="flower-type">Pincushion Protea</label>               
+                    </p>                   
+                </li>
+                <li>
+                    <img src="./assets/greenTrick.jpg" class="flower-photo" alt="green trichillium"/>
+                    <p>
+                        <input type="radio" id="trick" name="flower-type" value="green-trichillium"/>
+                        <label for="flower-type">Green Trichillium</label>
+                    </p>                    
+                </li>
+                <li>
+                    <img src="./assets/iris.jpg" class="flower-photo" alt="iris"/>
+                    <p>
+                        <input type="radio" id="iris" name="flower-type" value="iris"/>
+                        <label for="flower-type">Iris</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/blueBomb.jpg" class="flower-photo" alt="blue bomb orchid"/>
+                    <p>
+                        <input type="radio" id="orchid" name="flower-type" value="blue-bomb-orchid"/>
+                        <label for="flower-type">Blue Bomb Orchid</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/starfighter.jpg" class="flower-photo" alt="starfighter lily"/>
+                    <p>
+                        <input type="radio" id="lily" name="flower-type" value="starfighter-lily"/>
+                        <label for="flower-type">Starfighter Lily</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/redGerb.jpg" class="flower-photo" alt="red gerbera daisy"/>
+                    <p>
+                        <input type="radio" id="daisy" name="flower-type" value="gerbera-daisy"/>
+                        <label for="flower-type">Gerbera Daisy</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/ranunculus.png" class="flower-photo" alt="ranunculus"/>
+                    <p>
+                        <input type="radio" id="ranunculus" name="flower-type" value="ranunculus"/>
+                        <label for="flower-type">Ranunculus</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/charmelia.jpeg" class="flower-photo" alt="charmelia"/>
+                    <p>
+                        <input type="radio" id="charmelia" name="flower-type" value="charmelia"/>
+                        <label for="flower-type">Charmelia</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/peony.jpg" class="flower-photo" alt="peony"/>
+                    <p>
+                        <input type="radio" id="peony" name="flower-type" value="peony"/>
+                        <label for="flower-type">Peony</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/spiderMum.jpg" class="flower-photo" alt="Spider Mum"/>
+                    <p>
+                        <input type="radio" id="Spider Mum" name="flower-type" value="Spider Mum"/>
+                        <label for="flower-type">Spider Mum</label>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="step2">
+            <h3><b>Step 2:</b> Choose an accent flower!</h3>
+            <ul>
+                <li>                    
+                    <img src="./assets/thistle.jpg" class="accent-photo" alt="thistle"/>
+                    <p>
+                        <input type="radio" id="thistle" name="accent-type" value="thistle"/>  
+                        <label for="accent-type">Thistle</label> 
+                    </p>
+                </li>
+                <li>
+                    <img src="assets/waxflower.jpg" class="accent-photo" alt="pink waxflower"/>
+                    <p>
+                        <input type="radio" id="waxflower" name="accent-type" value="waxflower"/>
+                        <label for="accent-type">Waxflower</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/statice.jpg" class="accent-photo" alt="purple statice"/>
+                    <p>
+                        <input type="radio" id="statice" name="accent-type" value="statice"/>
+                        <label for="accent-type">Statice</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/QAL.jpg" class="accent-photo" alt="queen annes lace" />
+                    <p>
+                        <input type="radio" id="qal" name="accent-type" value="qal"/>
+                        <label for="accent-type">Queen Anne's Lace</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/veronica.jpg" class="accent-photo" alt="veronica" />
+                    <p>
+                        <input type="radio" id="veronica" name="accent-type" value="veronica"/>
+                        <label for="accent-type">Veronica</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/boronia.jpg" class="accent-photo" alt="boronia" />
+                    <p>
+                        <input type="radio" id="boronia" name="accent-type" value="boronia"/>
+                        <label for="accent-type">Boronia</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/solidago.jpg" class="accent-photo" alt="solidago" />
+                    <p>
+                        <input type="radio" id="solidago" name="accent-type" value="solidago"/>
+                        <label for="accent-type">Solidago</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/cornflower.jpg" class="accent-photo" alt="cornflower" />
+                    <p>
+                        <input type="radio" id="cornflower" name="accent-type" value="cornflower"/>
+                        <label for="accent-type">Cornflower</label>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="step3">
+            <h3><b>Step 3:</b> Choose some greenery!</h3>
+            <ul>
+                <li>
+                    <img src="./assets/pitt.jpg" class="greens-photo" alt="variegated pittosporum"/>
+                    <p>
+                        <input type="radio" id="pittosporum" name="greens-type" value="pittosporum"/>
+                        <label for="greens-type">Pittosporum</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/LL.jpeg" class="greens-photo" alt="leatherleaf"/>
+                    <p>
+                        <input type="radio" id="leatherleaf" name="greens-type" value="leatherleaf"/>
+                        <label for="greens-type">Leatherleaf</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/ruscus.jpeg" class="greens-photo" alt="israeli ruscus"/>
+                    <p>
+                        <input type="radio" id="ruscus" name="greens-type" value="ruscus"/>
+                        <label for="greens-type">Israeli Ruscus</label>
+                    </p>
+                    
+                </li>
+                <li>
+                    <img src="./assets/babyEuc.jpg" class="greens-photo" alt="baby eucalyptus"/>
+                    <p>
+                        <input type="radio" id="baby-eucalyptus" name="greens-type" value="baby-eucalyptus"/>
+                        <label for="greens-type">Baby Eucalyptus</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/podocarpus.jpg" class="greens-photo" alt="podocarpus"/>
+                    <p>
+                        <input type="radio" id="podocarpus" name="greens-type" value="podocarpus"/>
+                        <label for="greens-type">Podocarpus</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/salal.jpg" class="greens-photo" alt="salal"/>
+                    <p>
+                        <input type="radio" id="salal" name="greens-type" value="salal"/>
+                        <label for="greens-type">Salal</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/aspidistra.jpg" class="greens-photo" alt="aspidistra"/>
+                    <p>
+                        <input type="radio" id="aspidistra" name="greens-type" value="aspidistra"/>
+                        <label for="greens-type">Aspidistra</label>
+                    </p>
+                </li>
+                <li>
+                    <img src="./assets/seededEuc.jpg" class="greens-photo" alt="seeded eucalyptus"/>
+                    <p>
+                        <input type="radio" id="seeded-eucalyptus" name="greens-type" value="seeded-eucalyptus"/>
+                        <label for="greens-type">Seeded Eucalyptus</label>
+                    </p>
+                </li>                
+            </ul>
+        </div>
+        <div class="step4">
+            <h3><b>Step 4:</b> Where are the flowers going?</h3>
+            <form class="order-form">
+                <label for="name">Recipient Name: </label>
+                <input type="text" id="name" name="name" />
+                <br/>
+                <label for="address">Delivery Address: </label>
+                <input type="text" id="address" name="address" />
+                <br/>
+                <div class="dates">
+                    <p>
+                        <label for="date">Delivery Date: </label>
+                        <input type="date" id="date" name="date" />
+                    </p>
+                    <p>
+                        <label for="occasion">Occasion: </label>
+                            <select id="occasion" name="occasion">
+                                <option value="holiday">Holiday</option>
+                                <option value="birthday">Birthday</option>
+                                <option value="thanks">Thank You</option>
+                                <option value="sorry">I'm Sorry</option>
+                                <option value="thinking">Thinking of You</option>
+                                <option value="congrats">Congratulations</option>
+                            </select>
+                    </p>
+                </div>
+                <br/>
+                <label for="card">Card Message: </label>
+                <textarea id="card" name="card" rows="3"></textarea>
+                <label for="sender">Signed: </label>
+                <input type="text" id="sender" name="sender" />
+                <button class="place-order">Place Order</button>
+            </form>
+        </div>
+    </section>
+    <hr/>
+    <h2 id="help">Need Help Deciding?</h2>
+    <section class="help" >        
+        <p>
+            <a href="https://www.almanac.com/flower-meanings-language-flowers" target="_blank">Learn more about flower meanings</a>
+        </p>
+        <p>
+            <a href="https://www.color-meanings.com/" target="_blank">Learn more about color meanings</a>
+        </p>     
+        <p>
+            <a href="#send-flowers">Make your mind up? Start your order!</a>
+        </p>
+        <p>
+            <a href="#contact-us">Still have more questions?</a>
+        </p>
+    </section>
+    <hr/>
+    <h2 id="contact-us">Contact Us</h2>
+    <section class="contact-us" >        
+        <form class="contact-form">
+            <label for="your-name">Your Name: </label>
+            <input type="text" id="your-name" name="your-name" />
+            <br/>
+            <label for="inquiry">What's on your mind? </label>
+            <textarea id="inquiry" name="inquiry" rows="3"></textarea>
+            <button class="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <a href="top">Efflorescence</a> by Jamie Coakley © 2022 | Sitemap | Privacy Policy | Terms of Use
+    </footer>
+</body>
+</html>

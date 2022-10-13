@@ -1,0 +1,312 @@
+body{
+ background-image: radial-gradient( rgb(196, 196, 247), white, lavender, white, rgb(196, 196, 247));
+}
+
+.store-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-right: 15%;
+}
+
+#top{
+    font-family: 'Sacramento', cursive;
+    font-size: 75px;
+    color: indigo;
+    text-shadow: 2px 2px black;
+    margin: 0 0 1vh 3vw;
+}
+
+#top-2{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    color: indigo;
+    text-shadow: 1.5px 1.5px black;
+    margin: -1em 0em 0em 4em;
+}
+
+nav{
+    margin-left: -1vw;
+    margin-right: -1vw;
+    padding: 0;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 5px double indigo;
+    border-bottom: 5px double indigo;
+    font-size: 1.1em;
+    background-image: linear-gradient(to bottom right, rgb(232, 232, 228), white, rgb(232, 232, 228) );
+}
+
+ul li{
+    list-style: none;
+    font-family: 'Indie Flower', cursive;
+    padding: 2px;
+    color: black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-left: .2em;
+    padding-right: .2em;    
+}
+
+a:hover{
+    color: white;
+    background-color: indigo;
+}
+
+h2{
+    font-family: 'Sacramento', cursive;
+    font-size: 30px;
+    color: indigo;
+    text-shadow: 1px 1.5px black;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h3{
+    font-family: 'Indie Flower', cursive;
+}
+
+h3 b{
+    font-family: 'Kanit', sans-serif;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.send-flowers li{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0
+}
+
+li p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -.25vh;
+}
+
+p label{
+    font-size: .7em;
+    text-align: left;
+    padding-top: 3px;
+}
+
+section li input{
+    text-align: center;
+}
+
+.send-flowers ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.flower-photo, .accent-photo, .greens-photo{
+    height: 100px;
+    width: 100px;
+    border: 3px double indigo;
+    background-color: white;
+}
+
+#help{
+    margin-bottom: 0;
+}
+
+.help{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.help p{
+    font-family: 'Indie Flower', cursive;
+    border: 5px double indigo;
+    height: 80px;
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 0%;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    background-image: linear-gradient(to bottom right, rgb(232, 232, 228), white, rgb(232, 232, 228) );
+}
+
+.help p:hover{
+    box-shadow: 4px 4px 4px black;
+    height: 85px;
+    width: 105px;
+}
+
+hr{
+    border-top: 5px double indigo;
+    margin: 5vw -1vw 1vw -1vw;    
+}
+
+.order-form, .contact-form{
+    border: 5px double indigo;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background-image: linear-gradient(to bottom right, rgb(232, 232, 228), white, rgb(232, 232, 228) );
+}
+
+.order-form label, .contact-form label{
+    margin-left: 5vw;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1em;
+    color: black;
+}
+
+.order-form div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: none;
+    padding: 0;
+    margin-bottom: 0;  
+}
+
+input, textarea{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#name, #address, #card, #sender, #your-name, #inquiry {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    height: 1.2em;
+}
+
+#date, #occasion{
+    height: 1.5em;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+#card, #inquiry{
+    height: 4em;
+    margin-bottom: 2vh;
+    margin-top: 0;
+}
+
+.place-order{
+    margin-top: 3vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 10px;
+    border: 2px solid indigo;
+    box-shadow: 2px 2px 2px black;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+.place-order:hover{
+    background-color: indigo;
+    color: white;
+    box-shadow: 4px 4px 4px black;
+}
+
+option{
+    font-family: 'Kanit', sans-serif;
+}
+
+.submit{
+    margin-top: 1vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 10px;
+    border: 2px solid indigo;
+    box-shadow: 2px 2px 2px black;
+    font-size: 1.2em;
+    background-color: white;
+}
+
+.submit:hover{
+    background-color: indigo;
+    color: white;
+    box-shadow: 4px 4px 4px black;
+}
+
+#to-top, h5{
+    font-family: 'Kanit', sans-serif;
+    border: 4px double indigo;
+    text-align: center;
+}
+
+footer{
+    border-top: 3px double indigo;
+    margin-left: -1vw;
+    margin-right: -1vw;
+    margin-top: 5vh;
+    padding-top: 1vh;
+    font-size: x-small;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(232, 232, 228), white, rgb(232, 232, 228) );
+}
+
+@media only screen and (max-width: 400px) {
+    #top{
+        font-size: 40px;
+        text-shadow: 1px 1px black;
+    }
+    
+    #top-2{
+        font-size: 20px;
+        text-shadow: 1px 1px black;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    h3, h3 b{
+        font-size: 15px;
+    }
+
+    .order-form{
+        text-align: center;
+    }
+
+    li label{
+        font-size: 15px;
+    }
+
+    .submit, .place-order{
+        font-size: 15px;
+        width: 60vw;
+        margin-left: 6vw;
+        margin-bottom: 3vw;
+    }
+}
