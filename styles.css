@@ -97,7 +97,16 @@ h3 b{
     font-weight: 500;
 }
 
-.send-flowers li{
+.send-flowers ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.send-flowers ul li{
     height: 300px;
     width: 300px;
     display: flex;
@@ -118,22 +127,14 @@ li p {
 
 p label{
     font-size: 1.75em;
-    text-align: left;
+    justify-content: flex-start;
     padding-top: 3px;
+    padding-bottom: 5px;
+    align-self: flex-end;
 }
 
 section li input{
     text-align: center;
-}
-
-
-.send-flowers ul{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    column-gap: 20px;
-    row-gap: 20px;
 }
 
 .flower-photo, .accent-photo, .greens-photo{
