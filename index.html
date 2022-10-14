@@ -27,19 +27,19 @@
         </nav> 
         </div>       
     </header>
-    <h3 id="send-flowers"><b class="step">Step 1:</b> Choose a flower to send!</h3>
+    <h2 id="send-flowers"> Send a Bouquet</h2>
+    <h3><b class="step">Step 1:</b> Choose a flower to send!</h3>
     <section class="send-flowers" >        
             <ul>
                 <li>
                     <img src="./assets/moonCarn.jpg" class="flower-photo" alt="moonshade moon carnation"/>
                     <p>
                         <input type="radio" id="carn" name="flower-type" value="moonshade-carnation"/>
-                        <label for="flower-type"> Moonshade Carnation</label>
-                        
+                        <label for="flower-type">Moonshade Carnation
+                        </label>
                     </p>
                 </li>
                 <li>
-                    
                     <img src="./assets/freeSpirit.jpg" class="flower-photo" alt="free spirit rose"/>
                     <p>
                         <input type="radio" id="rose" name="flower-type" value="free-spirit-rose"/>
@@ -56,8 +56,9 @@
                 <li>
                     <img src="./assets/greenTrick.jpg" class="flower-photo" alt="green trichillium"/>
                     <p>
-                        <input type="radio" id="trick" name="flower-type" value="green-trichillium"/>
-                        <label for="flower-type">Green Trichillium</label>
+                        <input type="radio" id="trick" name="flower-type"   value="green-trichillium"/>
+                        <label for="flower-type">Green Trichillium
+                        </label>
                     </p>                    
                 </li>
                 <li>
@@ -124,7 +125,7 @@
                 <li>                    
                     <img src="./assets/thistle.jpg" class="accent-photo" alt="thistle"/>
                     <p>
-                        <input type="radio" id="thistle" name="accent-type" value="thistle"/>  
+                        <input type="radio" id="thistle" name="accent-type" value="thistle"/>
                         <label for="accent-type">Thistle</label> 
                     </p>
                 </li>
@@ -258,6 +259,7 @@
                     <p>
                         <label for="occasion">Occasion: </label>
                             <select id="occasion" name="occasion">
+                                <option value="select-occasion">Select Occasion</option>
                                 <option value="holiday">Holiday</option>
                                 <option value="birthday">Birthday</option>
                                 <option value="thanks">Thank You</option>
@@ -269,7 +271,7 @@
                 </div>
                 <br/>
                 <label for="card">Card Message: </label>
-                <textarea id="card" name="card" rows="3"></textarea>
+                <textarea id="card" name="card" rows="5"></textarea>
                 <label for="sender">Signed: </label>
                 <input type="text" id="sender" name="sender" />
                 <button class="place-order">Place Order</button>
@@ -280,7 +282,7 @@
     <h2 id="help">Need Help Deciding?</h2>
     <section class="help" >        
         <p>
-            <a href="https://www.almanac.com/flower-meanings-language-flowers" target="_blank">Learn more about flower meanings</a>
+            <a href="https://www.farmersalmanac.com/the-meaning-of-flowers-10790" target="_blank">Learn more about flower meanings</a>
         </p>
         <p>
             <a href="https://www.color-meanings.com/" target="_blank">Learn more about color meanings</a>
@@ -300,7 +302,7 @@
             <input type="text" id="your-name" name="your-name" />
             <br/>
             <label for="inquiry">What's on your mind? </label>
-            <textarea id="inquiry" name="inquiry" rows="3"></textarea>
+            <textarea id="inquiry" name="inquiry" rows="5"></textarea>
             <button class="submit">Submit</button>
         </form>
     </section>
