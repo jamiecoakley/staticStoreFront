@@ -321,35 +321,61 @@ footer{
 
 @media only screen and (max-width: 400px) {
     #top{
-        font-size: 40px;
+        font-size: 70px;
         text-shadow: 1px 1px black;
     }
     
     #top-2{
-        font-size: 20px;
+        font-size: 30px;
         text-shadow: 1px 1px black;
     }
 
     nav ul{
         flex-direction: column;
+        font-size: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10vw;
+    }
+
+    h2{
+        font-size: 40px;
+        padding-bottom: 2vh;
+        text-shadow: 1px 1px 1px black;
     }
 
     h3, h3 b{
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .order-form{
         text-align: center;
     }
 
+    .order-form label{
+        margin-left: 0;
+        font-size: 20px;
+    }
+
     li label{
-        font-size: 15px;
+        font-size: 25px;
+    }
+
+    .contact-us label{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
     }
 
     .submit, .place-order{
         font-size: 15px;
-        width: 60vw;
-        margin-left: 6vw;
+        width: 40vw;
+        margin-left: 8vw;
         margin-bottom: 3vw;
+        margin-top: 0;
+    }
+
+    #sender{
+        margin-bottom: 2vh;
     }
 }
